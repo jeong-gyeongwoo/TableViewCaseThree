@@ -7,15 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F422B7FA2A7A842B00F79E98 /* ThirdTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F422B7F92A7A842B00F79E98 /* ThirdTableViewCell.swift */; };
+		F4652E482A7BE2C000D80C9E /* StructTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4652E472A7BE2C000D80C9E /* StructTableViewController.swift */; };
+		F4652E4A2A7BE4BE00D80C9E /* StructTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4652E492A7BE4BE00D80C9E /* StructTableViewCell.swift */; };
 		F4820C482A7A479500617B3C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4820C472A7A479500617B3C /* AppDelegate.swift */; };
 		F4820C4A2A7A479500617B3C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4820C492A7A479500617B3C /* SceneDelegate.swift */; };
 		F4820C4C2A7A479500617B3C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4820C4B2A7A479500617B3C /* ViewController.swift */; };
 		F4820C4F2A7A479500617B3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4820C4D2A7A479500617B3C /* Main.storyboard */; };
 		F4820C512A7A479600617B3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4820C502A7A479600617B3C /* Assets.xcassets */; };
 		F4820C542A7A479600617B3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4820C522A7A479600617B3C /* LaunchScreen.storyboard */; };
+		F4820C5C2A7A49D900617B3C /* PracticeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4820C5B2A7A49D900617B3C /* PracticeTableViewController.swift */; };
+		F4820C602A7A7B4700617B3C /* ThirdTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4820C5F2A7A7B4700617B3C /* ThirdTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F422B7F92A7A842B00F79E98 /* ThirdTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdTableViewCell.swift; sourceTree = "<group>"; };
+		F4652E472A7BE2C000D80C9E /* StructTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructTableViewController.swift; sourceTree = "<group>"; };
+		F4652E492A7BE4BE00D80C9E /* StructTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructTableViewCell.swift; sourceTree = "<group>"; };
 		F4820C442A7A479500617B3C /* TableViewCaseThree.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewCaseThree.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4820C472A7A479500617B3C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F4820C492A7A479500617B3C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +32,8 @@
 		F4820C502A7A479600617B3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F4820C532A7A479600617B3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F4820C552A7A479600617B3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4820C5B2A7A49D900617B3C /* PracticeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeTableViewController.swift; sourceTree = "<group>"; };
+		F4820C5F2A7A7B4700617B3C /* ThirdTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +70,11 @@
 				F4820C492A7A479500617B3C /* SceneDelegate.swift */,
 				F4820C4B2A7A479500617B3C /* ViewController.swift */,
 				F4820C4D2A7A479500617B3C /* Main.storyboard */,
+				F4652E492A7BE4BE00D80C9E /* StructTableViewCell.swift */,
+				F4652E472A7BE2C000D80C9E /* StructTableViewController.swift */,
+				F4820C5B2A7A49D900617B3C /* PracticeTableViewController.swift */,
+				F4820C5F2A7A7B4700617B3C /* ThirdTableViewController.swift */,
+				F422B7F92A7A842B00F79E98 /* ThirdTableViewCell.swift */,
 				F4820C502A7A479600617B3C /* Assets.xcassets */,
 				F4820C522A7A479600617B3C /* LaunchScreen.storyboard */,
 				F4820C552A7A479600617B3C /* Info.plist */,
@@ -140,7 +155,12 @@
 			files = (
 				F4820C4C2A7A479500617B3C /* ViewController.swift in Sources */,
 				F4820C482A7A479500617B3C /* AppDelegate.swift in Sources */,
+				F4652E482A7BE2C000D80C9E /* StructTableViewController.swift in Sources */,
+				F4820C5C2A7A49D900617B3C /* PracticeTableViewController.swift in Sources */,
+				F4652E4A2A7BE4BE00D80C9E /* StructTableViewCell.swift in Sources */,
+				F4820C602A7A7B4700617B3C /* ThirdTableViewController.swift in Sources */,
 				F4820C4A2A7A479500617B3C /* SceneDelegate.swift in Sources */,
+				F422B7FA2A7A842B00F79E98 /* ThirdTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,9 +321,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.Jeong.TableViewCaseThree;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -328,9 +351,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.Jeong.TableViewCaseThree;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
