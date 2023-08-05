@@ -13,7 +13,8 @@ class MovieSceneTableViewController: UITableViewController {
         super.viewDidLoad()
         let nib = UINib(nibName: "MovieSceneTableViewCell", bundle: nil)
         tableView.register(nib, forCellReuseIdentifier: "MovieSceneTableViewCell")
-        // sizeCell()
+      
+        tableView.rowHeight = 200
     }
 
 
@@ -25,7 +26,7 @@ class MovieSceneTableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         //for 쓴거랑 안쓴거 차이 -> 요소만 수정? or 셀을 수정?
         // 안해도 자동아닌가?
-        // xib 크기 조절 문제?
+       
         let cell = tableView.dequeueReusableCell(withIdentifier: "MovieSceneTableViewCell", for: indexPath) as! MovieSceneTableViewCell
         
         cell.titleLabel.text = MovieInfo().movie[indexPath.row].title
@@ -37,14 +38,5 @@ class MovieSceneTableViewController: UITableViewController {
     
     }
    
-//    func sizeCell() {
-//        
-//        let layout = UITableViewCell()
-//        layout.sizeToFit()
-//
-//
-//
-//
-//    }
 
 }

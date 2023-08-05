@@ -14,3 +14,5 @@ class MovieSceneTableViewCell: UITableViewCell {
     @IBOutlet var movieImageLabel: UIImageView!
     
 }
+
+
