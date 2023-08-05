@@ -10,6 +10,10 @@
 		F422B7FA2A7A842B00F79E98 /* ThirdTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F422B7F92A7A842B00F79E98 /* ThirdTableViewCell.swift */; };
 		F4652E482A7BE2C000D80C9E /* StructTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4652E472A7BE2C000D80C9E /* StructTableViewController.swift */; };
 		F4652E4A2A7BE4BE00D80C9E /* StructTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4652E492A7BE4BE00D80C9E /* StructTableViewCell.swift */; };
+		F476E8D52A7D33AB002DB84C /* MovieSceneTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F476E8D42A7D33AB002DB84C /* MovieSceneTableViewController.swift */; };
+		F476E8D82A7D340A002DB84C /* MovieSceneTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F476E8D62A7D340A002DB84C /* MovieSceneTableViewCell.swift */; };
+		F476E8D92A7D340A002DB84C /* MovieSceneTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F476E8D72A7D340A002DB84C /* MovieSceneTableViewCell.xib */; };
+		F476E8DB2A7D3492002DB84C /* MovieInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F476E8DA2A7D3492002DB84C /* MovieInfo.swift */; };
 		F4820C482A7A479500617B3C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4820C472A7A479500617B3C /* AppDelegate.swift */; };
 		F4820C4A2A7A479500617B3C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4820C492A7A479500617B3C /* SceneDelegate.swift */; };
 		F4820C4C2A7A479500617B3C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4820C4B2A7A479500617B3C /* ViewController.swift */; };
@@ -24,6 +28,10 @@
 		F422B7F92A7A842B00F79E98 /* ThirdTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdTableViewCell.swift; sourceTree = "<group>"; };
 		F4652E472A7BE2C000D80C9E /* StructTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructTableViewController.swift; sourceTree = "<group>"; };
 		F4652E492A7BE4BE00D80C9E /* StructTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructTableViewCell.swift; sourceTree = "<group>"; };
+		F476E8D42A7D33AB002DB84C /* MovieSceneTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieSceneTableViewController.swift; sourceTree = "<group>"; };
+		F476E8D62A7D340A002DB84C /* MovieSceneTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieSceneTableViewCell.swift; sourceTree = "<group>"; };
+		F476E8D72A7D340A002DB84C /* MovieSceneTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MovieSceneTableViewCell.xib; sourceTree = "<group>"; };
+		F476E8DA2A7D3492002DB84C /* MovieInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieInfo.swift; sourceTree = "<group>"; };
 		F4820C442A7A479500617B3C /* TableViewCaseThree.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewCaseThree.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4820C472A7A479500617B3C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F4820C492A7A479500617B3C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -70,6 +78,10 @@
 				F4820C492A7A479500617B3C /* SceneDelegate.swift */,
 				F4820C4B2A7A479500617B3C /* ViewController.swift */,
 				F4820C4D2A7A479500617B3C /* Main.storyboard */,
+				F476E8D62A7D340A002DB84C /* MovieSceneTableViewCell.swift */,
+				F476E8D72A7D340A002DB84C /* MovieSceneTableViewCell.xib */,
+				F476E8D42A7D33AB002DB84C /* MovieSceneTableViewController.swift */,
+				F476E8DA2A7D3492002DB84C /* MovieInfo.swift */,
 				F4652E492A7BE4BE00D80C9E /* StructTableViewCell.swift */,
 				F4652E472A7BE2C000D80C9E /* StructTableViewController.swift */,
 				F4820C5B2A7A49D900617B3C /* PracticeTableViewController.swift */,
@@ -141,6 +153,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F4820C542A7A479600617B3C /* LaunchScreen.storyboard in Resources */,
+				F476E8D92A7D340A002DB84C /* MovieSceneTableViewCell.xib in Resources */,
 				F4820C512A7A479600617B3C /* Assets.xcassets in Resources */,
 				F4820C4F2A7A479500617B3C /* Main.storyboard in Resources */,
 			);
@@ -154,9 +167,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				F4820C4C2A7A479500617B3C /* ViewController.swift in Sources */,
+				F476E8DB2A7D3492002DB84C /* MovieInfo.swift in Sources */,
+				F476E8D52A7D33AB002DB84C /* MovieSceneTableViewController.swift in Sources */,
 				F4820C482A7A479500617B3C /* AppDelegate.swift in Sources */,
 				F4652E482A7BE2C000D80C9E /* StructTableViewController.swift in Sources */,
 				F4820C5C2A7A49D900617B3C /* PracticeTableViewController.swift in Sources */,
+				F476E8D82A7D340A002DB84C /* MovieSceneTableViewCell.swift in Sources */,
 				F4652E4A2A7BE4BE00D80C9E /* StructTableViewCell.swift in Sources */,
 				F4820C602A7A7B4700617B3C /* ThirdTableViewController.swift in Sources */,
 				F4820C4A2A7A479500617B3C /* SceneDelegate.swift in Sources */,
